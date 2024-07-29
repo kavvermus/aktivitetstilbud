@@ -1,39 +1,39 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Udflugter og Oplevelser",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "Oplev verden omkring os. Vores handicapvenlige bus kører til spændende attraktioner og kulturelle begivenheder. God stemning garanteret!",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Kreative Udfoldelser",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "Slip din indre kunstner løs. Tilgængelige kreative aktiviteter hvor alle kan udtrykke sig gennem kunst og musik i en positiv atmosfære.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
+    title: "Fysisk Aktivitet og Velvære",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
+      "Tilpasset motion og afslapning for alle. Vi arrangerer handicapvenlige gåture og velvære-aktiviteter i et støttende miljø.",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
+    title: "Madlavning og Hygge",
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "Del gode stunder med andre. Tilgængelige køkkenfaciliteter til fælles madlavning og hyggelige sammenkomster i en varm atmosfære.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
+    title: "Læring og Udvikling",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+      "Udvid din horisont. Handicapvenlige foredrag og workshops i et inkluderende miljø, hvor alle kan deltage og bidrage.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Community",
+    title: "Sociale Aktiviteter",
     description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+      "Styrk venskaber i trygge rammer. Vi arrangerer inkluderende fællesaktiviteter og festlige sammenkomster med plads til alle.",
     icon: "bx:bxs-user",
   },
 ];
@@ -42,11 +42,10 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Vores Inkluderende Aktiviteter
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Oplev en verden af muligheder med tilgængelige aktiviteter, god stemning og komfortabel bustransport.
     </p>
   </div>
 
