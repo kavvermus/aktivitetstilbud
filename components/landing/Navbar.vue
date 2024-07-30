@@ -2,9 +2,9 @@
 const menuitems = [
 {
     title: "Oplevelser",
-    path: "#",
+    path: "/oplevelser",
     submenu: [
-      { title: "Udendørs", path: "/outdoor" },
+      { title: "Udflugter og Oplevelser", path: "/oplevelser" },
       { title: "Indendørs", path: "/indoor" },
     ]
   },
@@ -75,7 +75,7 @@ const toggleDropdown = (index) => {
           <li v-for="(item, index) in menuitems" :key="index" class="relative">
             <div v-if="item.submenu" @click="toggleDropdown(index)" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900 cursor-pointer">
               {{ item.title }}
-              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+              <svg class="w-4 h-4 ml-1 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
             </div>
             <a v-else :href="item.path" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
               {{ item.title }}
