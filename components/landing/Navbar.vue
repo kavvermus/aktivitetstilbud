@@ -1,8 +1,12 @@
 <script setup>
 const menuitems = [
-  {
-    title: "Aktiviteter",
+{
+    title: "Oplevelser",
     path: "#",
+    submenu: [
+      { title: "Udendørs", path: "/outdoor" },
+      { title: "Indendørs", path: "/indoor" },
+    ]
   },
   {
     title: "Priser",
@@ -19,6 +23,16 @@ const menuitems = [
 ];
 
 const open = ref(false);
+
+const activeDropdown = ref(null);
+
+const toggleDropdown = (index) => {
+  if (activeDropdown.value === index) {
+    activeDropdown.value = null;
+  } else {
+    activeDropdown.value = index;
+  }
+};
 </script>
 
 <template>
@@ -58,16 +72,28 @@ const open = ref(false);
         :class="{ block: open, hidden: !open }"
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
-          <li v-for="item of menuitems">
-            <a
-              :href="item.path"
-              class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
-            >
+          <li v-for="(item, index) in menuitems" :key="index" class="relative">
+            <div v-if="item.submenu" @click="toggleDropdown(index)" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900 cursor-pointer">
+              {{ item.title }}
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </div>
+            <a v-else :href="item.path" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
               {{ item.title }}
             </a>
+            <ul v-if="item.submenu && activeDropdown === index" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
+              <li v-for="subItem in item.submenu" :key="subItem.title">
+                <a :href="subItem.path" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  {{ subItem.title }}
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
     </header>
   </LandingContainer>
 </template>
+
+
+
+
