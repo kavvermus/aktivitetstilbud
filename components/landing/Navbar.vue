@@ -5,7 +5,11 @@ const menuitems = [
     path: "/oplevelser",
     submenu: [
       { title: "Udflugter og Oplevelser", path: "/oplevelser" },
-      { title: "Indendørs", path: "/indoor" },
+      { title: "Kreative Udfoldelser", path: "/kreative" },
+      { title: "Fysisk Aktivitet og Velvære", path: "/oplevelser" },
+      { title: "Madlavning og Hygge", path: "/kreative" },
+      { title: "Læring og Udvikling", path: "/oplevelser" },
+      { title: "Sociale Aktiviteter", path: "/kreative" },
     ]
   },
   {
