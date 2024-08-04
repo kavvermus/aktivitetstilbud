@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const features = [
   {
-    title: 'Udflugter og Oplevelser',
+    title: 'Udflugter med vores turbus',
     description:
       'Oplev verden omkring os. Vores handicapvenlige bus kører til spændende attraktioner og kulturelle begivenheder. God stemning garanteret!',
     icon: 'bx:bxs-briefcase',
