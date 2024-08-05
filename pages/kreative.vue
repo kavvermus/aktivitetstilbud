@@ -7,6 +7,22 @@ definePageMeta({
 const teamImages = [
   '/img/heste.jpeg',
 ]
+
+// Reactive state for modal
+const isModalOpen = ref(false)
+const selectedImage = ref(null)
+
+// Function to open modal
+function openModal(image) {
+  selectedImage.value = image
+  isModalOpen.value = true
+}
+
+// Function to close modal
+function closeModal() {
+  isModalOpen.value = false
+  selectedImage.value = null
+}
 </script>
 
 <template>
@@ -38,9 +54,35 @@ const teamImages = [
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="(image, index) in teamImages" :key="index" class="overflow-hidden rounded-lg shadow-lg">
-          <img :src="image" :alt="`Team member ${index + 1}`" class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105">
+          <img
+            :src="image"
+            :alt="`Team member ${index + 1}`"
+            class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+            @click="openModal(image)"
+          >
         </div>
       </div>
     </div>
+
+    <!-- Modal Komponent -->
+    <transition name="fade">
+      <div v-if="isModalOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+        <div class="relative">
+          <button class="absolute top-2 right-2 text-white text-3xl font-bold" @click="closeModal">
+            &times;
+          </button>
+          <img :src="selectedImage" class="max-w-full max-h-full">
+        </div>
+      </div>
+    </transition>
   </LandingContainer>
 </template>
+
+<style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+</style>

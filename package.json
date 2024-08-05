@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.24.0",
+    "@heroicons/vue": "^2.1.5",
     "@nuxt/eslint": "^0.4.0",
     "@nuxt/fonts": "^0.7.1",
     "eslint": "^9.8.0",
