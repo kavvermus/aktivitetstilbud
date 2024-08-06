@@ -61,7 +61,7 @@ onMounted(() => {
     class="needs-validation"
     novalidate
   >
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+    <input type="hidden" name="access_key" value="1c33fca1-2321-4a4f-a692-036e014e76f9">
     <!-- Create your free access key from https://web3forms.com/ -->
     <input
       type="checkbox"
@@ -72,44 +72,44 @@ onMounted(() => {
     <div class="mb-5">
       <input
         type="text"
-        placeholder="Full Name"
+        placeholder="Fulde navn"
         required
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
         name="name"
       >
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Please provide your full name.
+        Indsend venligst navn.
       </div>
     </div>
     <div class="mb-5">
       <label for="email_address" class="sr-only">Email Address</label><input
         id="email_address"
         type="email"
-        placeholder="Email Address"
+        placeholder="Email Addresse"
         name="email"
         required
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       >
       <div class="empty-feedback text-red-400 text-sm mt-1">
-        Please provide your email address.
+        Indsæt venligst email adresse.
       </div>
       <div class="invalid-feedback text-red-400 text-sm mt-1">
-        Please provide a valid email address.
+        Indsæt venligst en gyldig email adresse.
       </div>
     </div>
     <div class="mb-3">
       <textarea
         name="message"
         required
-        placeholder="Your Message"
+        placeholder="Din besked"
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       />
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Please enter your message.
+        Indsæt venligst din besked.
       </div>
     </div>
-    <LandingButton type="submit" size="lg" block>
-      Send Message
+    <LandingButton type="submit" size="lg" block class="bg-slate-900 text-white hover:bg-slate-700 p-3 rounded-md">
+      Send besked
     </LandingButton>
     <div id="result" class="mt-3 text-center" />
   </form>
