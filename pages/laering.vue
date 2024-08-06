@@ -73,21 +73,48 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        About
+        Læring og Udvikling
       </template>
       <template #desc>
-        We are a small passionate team.
+        Udvid din horisont
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Udvid Din Horisont med Aktivitetstilbud
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Hos <strong>Aktivitetstilbud</strong> tror vi på, at læring og personlig udvikling er afgørende for livskvaliteten. Vi tilbyder en række aktiviteter, der fremmer viden og færdigheder i et inkluderende miljø, hvor alle kan deltage og bidrage.
+      </p>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Vores Aktiviteter for Læring og Udvikling
+      </h2>
+      <ul class="list-disc list-inside text-lg leading-relaxed text-slate-500 mt-4">
+        <li class="mb-2">
+          <strong>Handicapvenlige Foredrag:</strong> Deltag i inspirerende foredrag, der dækker en bred vifte af emner, fra videnskab og teknologi til kunst og kultur.
+        </li>
+        <li class="mb-2">
+          <strong>Workshops:</strong> Engager dig i praktiske workshops, hvor du kan lære nye færdigheder og udvide din viden inden for forskellige områder.
+        </li>
+        <li class="mb-2">
+          <strong>Kurser:</strong> Tilmeld dig vores kurser, der tilbyder dybdegående læring og udvikling inden for specifikke emner, som interesserer dig.
+        </li>
+        <li class="mb-2">
+          <strong>Gruppediskussioner:</strong> Deltag i gruppediskussioner, hvor du kan dele dine tanker og lære af andres erfaringer i en åben og støttende atmosfære.
+        </li>
+      </ul>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Deltag og Udvikl Dig Selv
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Vores inkluderende miljø sikrer, at alle kan deltage i aktiviteterne og få glæde af læring og personlig udvikling. Uanset om du er nybegynder eller erfaren, vil vores erfarne instruktører og faciliteter støtte dig i din rejse mod ny viden og færdigheder. Kontakt os for at finde ud af, hvordan du kan blive en del af vores læringsfællesskab og begynde at udvide din horisont i dag.
+      </p>
+
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Hos <strong>Aktivitetstilbud</strong> handler det om at fremme læring og udvikling gennem meningsfulde aktiviteter. Vi ser frem til at hjælpe dig med at nå dine læringsmål og skabe en bedre livskvalitet!
       </p>
     </div>
 

@@ -73,24 +73,50 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        About
+        Madlavning og Hygge
       </template>
       <template #desc>
-        We are a small passionate team.
+        Del gode stunder med andre.
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Nyd Madlavning og Hygge med Aktivitetstilbud
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Hos <strong>Aktivitetstilbud</strong> mener vi, at madlavning og fællesskab går hånd i hånd. Vi tilbyder tilgængelige køkkenfaciliteter, hvor du kan deltage i fælles madlavning og hygge i en varm og indbydende atmosfære.
+      </p>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Vores Aktiviteter for Madlavning og Hygge
+      </h2>
+      <ul class="list-disc list-inside text-lg leading-relaxed text-slate-500 mt-4">
+        <li class="mb-2">
+          <strong>Fælles Madlavning:</strong> Deltag i madlavningssessioner, hvor vi laver enkle og lækre måltider sammen i et socialt og støttende miljø.
+        </li>
+        <li class="mb-2">
+          <strong>Sociale Middage:</strong> Nyd hyggelige middage sammen med andre, hvor vi deler måltider og skaber gode minder omkring middagsbordet.
+        </li>
+        <li class="mb-2">
+          <strong>Temaaftener:</strong> Deltag i temaaftener med madlavning og spisning, hvor vi fejrer forskellige kulturer og traditioner.
+        </li>
+        <li class="mb-2">
+          <strong>Hyggelige Sammenkomster:</strong> Vær med til afslappede sammenkomster, hvor vi nyder god mad og godt selskab i en afslappet og hyggelig atmosfære.
+        </li>
+      </ul>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Deltag og Skab Minder
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Vores inkluderende miljø sikrer, at alle kan deltage i aktiviteterne og få glæde af madlavning og fællesskab. Uanset om du er nybegynder eller erfaren, vil vores erfarne instruktører støtte dig i at nyde madlavning og hyggelige stunder. Kontakt os for at finde ud af, hvordan du kan blive en del af vores fællesskab og begynde at skabe minder gennem madlavning og hygge.
+      </p>
+
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Hos <strong>Aktivitetstilbud</strong> handler det om at bringe mennesker sammen gennem mad og fællesskab. Vi ser frem til at dele mange hyggelige og velsmagende stunder med dig!
       </p>
     </div>
-
     <!-- Billedgalleri -->
     <div class="mt-12">
       <h3 class="text-2xl font-semibold text-gray-800 mb-6">

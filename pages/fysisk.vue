@@ -73,23 +73,51 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        About
+        Fysisk Aktivitet og Velvære
       </template>
       <template #desc>
-        We are a small passionate team.
+        Sundhed for Alle
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Op og igang
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Hos <strong>Aktivitetstilbud</strong> forstår vi vigtigheden af fysisk aktivitet og velvære. Vi tilbyder en række tilpassede aktiviteter, der fokuserer på at forbedre dit helbred og din trivsel i et støttende og inkluderende miljø.
+      </p>
+      <h2 class="font-bold text-xl text-gray-800">
+        Vores Aktiviteter for Fysisk Aktivitet og Velvære
+      </h2>
+      <ul class="list-disc list-inside mb-6 text-lg leading-relaxed text-slate-500">
+        <li class="mb-2">
+          <strong>Handicapvenlige Gåture:</strong> Nyd naturen og få frisk luft med vores guidede gåture, der er tilpasset alle evner og niveauer.
+        </li>
+        <li class="mb-2">
+          <strong>Yoga og Afspænding:</strong> Deltag i vores yoga- og afspændingsklasser, der hjælper med at forbedre fleksibilitet, styrke og mentalt velvære.
+        </li>
+        <li class="mb-2">
+          <strong>Fitness og Styrketræning:</strong> Engager dig i fitnessaktiviteter og styrketræningsøvelser, der er tilpasset dine behov og evner.
+        </li>
+        <li class="mb-2">
+          <strong>Velvære Workshops:</strong> Lær om sundhed og velvære med vores workshops, der dækker emner som ernæring, stresshåndtering og mindfulness.
+        </li>
+      </ul>
+      <h2 class="font-bold text-xl text-gray-800">
+        Deltag og Forbedr Dit Velvære
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Vores inkluderende miljø sikrer, at alle kan deltage i aktiviteterne og drage fordel af de sundhedsmæssige fordele. Uanset om du er nybegynder eller erfaren, vil vores erfarne instruktører støtte dig i din rejse mod bedre sundhed og velvære. Kontakt os for at finde ud af, hvordan du kan blive en del af vores fællesskab og begynde at forbedre dit helbred i dag.
+      </p>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Hos <strong>Aktivitetstilbud</strong> handler det om at fremme en sund livsstil gennem fysisk aktivitet og velvære. Vi ser frem til at hjælpe dig med at nå dine sundhedsmål og skabe en bedre livskvalitet!
       </p>
     </div>
+
+    <style scoped>
+      /* Du kan tilføje dine Tailwind tilpasninger her, hvis nødvendigt */
+    </style>
 
     <!-- Billedgalleri -->
     <div class="mt-12">

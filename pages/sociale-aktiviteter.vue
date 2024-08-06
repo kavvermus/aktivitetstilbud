@@ -73,21 +73,48 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        About
+        Sociale Aktiviteter
       </template>
       <template #desc>
-        We are a small passionate team.
+        Styrk venskaber i trygge rammer
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Oplev Sociale Aktiviteter med Aktivitetstilbud
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Hos <strong>Aktivitetstilbud</strong> mener vi, at sociale aktiviteter er afgørende for at skabe stærke og varige venskaber. Vi tilbyder en række inkluderende fællesaktiviteter og festlige sammenkomster, hvor der er plads til alle.
+      </p>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Vores Aktiviteter for Sociale Sammenkomster
+      </h2>
+      <ul class="list-disc list-inside text-lg leading-relaxed text-slate-500 mt-4">
+        <li class="mb-2">
+          <strong>Inkluderende Fællesaktiviteter:</strong> Deltag i en række forskellige fællesaktiviteter, der er designet til at fremme samarbejde og styrke sociale bånd.
+        </li>
+        <li class="mb-2">
+          <strong>Festlige Sammenkomster:</strong> Nyd vores festlige sammenkomster, hvor vi fejrer forskellige lejligheder med musik, dans og glæde i en inkluderende atmosfære.
+        </li>
+        <li class="mb-2">
+          <strong>Spilaftener:</strong> Deltag i hyggelige spilaftener, hvor vi spiller brætspil, kortspil og andre sjove aktiviteter sammen.
+        </li>
+        <li class="mb-2">
+          <strong>Kreative Workshops:</strong> Engager dig i kreative workshops, hvor du kan udtrykke dig gennem kunst og håndværk samtidig med at du knytter bånd med andre.
+        </li>
+      </ul>
+
+      <h2 class="font-bold text-2xl text-gray-800 mt-6">
+        Deltag og Styrk Dine Venskaber
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Vores inkluderende miljø sikrer, at alle kan deltage i aktiviteterne og få glæde af sociale sammenkomster. Uanset om du er nybegynder eller erfaren, vil vores erfarne instruktører støtte dig i at nyde fællesskabet og skabe stærke venskaber. Kontakt os for at finde ud af, hvordan du kan blive en del af vores sociale fællesskab og begynde at styrke dine venskaber i dag.
+      </p>
+
+      <p class="text-lg leading-relaxed text-slate-500 mt-4">
+        Hos <strong>Aktivitetstilbud</strong> handler det om at bringe mennesker sammen gennem sociale aktiviteter og fællesskab. Vi ser frem til at dele mange hyggelige og sjove stunder med dig!
       </p>
     </div>
 
