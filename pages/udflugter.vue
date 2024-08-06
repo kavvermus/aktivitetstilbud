@@ -73,31 +73,58 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        Om os
+        Oplev Verdenen
       </template>
       <template #desc>
-        Vi er et lille omsorgsfuldt hold.
+        Inkluderende Busudflugter for Alle
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Vi er AktivitetsTilbud
+        Så ruller bussen
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        En dedikeret organisation, der tilbyder meningsfulde aktiviteter for voksne med handicap. Vores team består af erfarne og uddannede fagfolk, som har en dyb forståelse for behovene og ønskerne hos vores deltagere.
+        Hos Aktivitetstilbud er vores mission at skabe meningsfulde oplevelser for alle med handicap over 18 år. Vi tilbyder skræddersyede busudflugter, der kombinerer komfort, tilgængelighed og sjov på en måde, der sikrer, at alle kan deltage og nyde øjeblikket.
+      </p>
+      <h3 class="font-bold text-xl text-gray-800">
+        En Komfortabel Rejse med Fokus på God Stemning
+      </h3>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Vores udflugter starter med, at vi henter dig direkte hjemmefra i vores moderne og handicapvenlige busser. Vi prioriterer din komfort og sikrer, at hver tur er både behagelig og afslappende. Vores erfarne chauffører og venlige personale sørger for en sikker rejse og en god stemning hele vejen. Uanset hvor vi skal hen, er det vigtigt for os, at du føler dig velkommen og godt tilpas.
+      </p>
+      <h3 class="font-bold text-xl text-gray-800">
+        Oplev Verden i Fællesskab
+      </h3>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Vores udflugter er ikke bare transport fra A til B. Vi skaber oplevelser, der er fyldt med sjove og inspirerende aktiviteter. Vi arbejder sammen med dig for at planlægge ture, der er tilpasset dine interesser og behov. Selvom vi har mange forslag til spændende destinationer og aktiviteter, værdsætter vi dine ønsker og input. Din tilfredshed er vores højeste prioritet, og vi tilpasser turene, så de bliver en oplevelse, du vil huske.
+      </p>
+      <h3 class="font-bold text-xl text-gray-800">
+        Forslag til Udforskning
+      </h3>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Her er nogle af de udflugter, vi foreslår:
+      </p>
+      <ul class="list-disc list-inside mb-6 text-lg leading-relaxed text-slate-500">
+        <li class="mb-2">
+          <strong>Kulturelle Eventyr:</strong> Udforsk museer, kunstgallerier og historiske steder, der giver indsigt i lokal kultur og historie.
+        </li>
+        <li class="mb-2">
+          <strong>Naturoplevelser:</strong> Oplev skønheden i vores naturlandskaber med guidede ture til parker og naturskønne områder.
+        </li>
+        <li class="mb-2">
+          <strong>Underholdning og Begivenheder:</strong> Deltag i lokale events, teaterforestillinger, koncerter og meget mere.
+        </li>
+        <li class="mb-2">
+          <strong>Kreative Workshops:</strong> Engager dig i kunst- og håndværksaktiviteter, der giver mulighed for kreativ udfoldelse.
+        </li>
+      </ul>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Vi er her for at gøre din oplevelse så behagelig og mindeværdig som muligt. Kontakt os i dag for at finde ud af, hvordan vi kan planlægge din næste udflugt. Vi ser frem til at samarbejde med dig for at skabe en tur, der er fyldt med glæde, spænding og nye oplevelser.
       </p>
 
       <p class="text-lg leading-relaxed text-slate-500">
-        Vi stræber efter at skabe en inkluderende og støttende atmosfære, hvor alle kan deltage og nyde vores forskellige aktiviteter. Med mange års erfaring sikrer vi, at hver aktivitet er tilpasset og designet til at tilbyde maksimal glæde og engagement.
-      </p>
-
-      <p class="text-lg leading-relaxed text-slate-500">
-        Hos AktivitetsTilbud er din trivsel vores højeste prioritet. Vi lægger stor vægt på personlig opmærksomhed og pleje, og vi er her for at sikre, at du får den bedst mulige oplevelse.
-      </p>
-
-      <p class="text-lg leading-relaxed text-slate-500">
-        Nederst på siden kan du finde billeder af vores fantastiske team. Vi glæder os til at byde dig velkommen og dele vores passion for aktiviteter med dig!
+        Hos Aktivitetstilbud handler det ikke kun om at rejse, men om at opleve verden på en måde, der er tilpasset dine behov og interesser. Lad os tage dig med på en rejse, du sent vil glemme!
       </p>
     </div>
 

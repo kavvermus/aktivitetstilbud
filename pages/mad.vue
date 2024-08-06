@@ -73,31 +73,21 @@ onBeforeUnmount(() => {
   <LandingContainer>
     <LandingSectionhead>
       <template #title>
-        Om os
+        About
       </template>
       <template #desc>
-        Vi er et lille omsorgsfuldt hold.
+        We are a small passionate team.
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Vi er AktivitetsTilbud
+        Empowering the world with Nuxt.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        En dedikeret organisation, der tilbyder meningsfulde aktiviteter for voksne med handicap. Vores team består af erfarne og uddannede fagfolk, som har en dyb forståelse for behovene og ønskerne hos vores deltagere.
-      </p>
-
-      <p class="text-lg leading-relaxed text-slate-500">
-        Vi stræber efter at skabe en inkluderende og støttende atmosfære, hvor alle kan deltage og nyde vores forskellige aktiviteter. Med mange års erfaring sikrer vi, at hver aktivitet er tilpasset og designet til at tilbyde maksimal glæde og engagement.
-      </p>
-
-      <p class="text-lg leading-relaxed text-slate-500">
-        Hos AktivitetsTilbud er din trivsel vores højeste prioritet. Vi lægger stor vægt på personlig opmærksomhed og pleje, og vi er her for at sikre, at du får den bedst mulige oplevelse.
-      </p>
-
-      <p class="text-lg leading-relaxed text-slate-500">
-        Nederst på siden kan du finde billeder af vores fantastiske team. Vi glæder os til at byde dig velkommen og dele vores passion for aktiviteter med dig!
+        We're a multi-cultural team from around the world! We come from diverse
+        backgrounds, bringing different personalities, experiences and skills to
+        the job. This is what makes our team so special.
       </p>
     </div>
 
