@@ -31,13 +31,11 @@ onMounted(() => {
           result.innerHTML = json.message
         }
         else {
-          console.log(response)
           result.classList.add('text-red-500')
           result.innerHTML = json.message
         }
       })
-      .catch((error) => {
-        console.log(error)
+      .catch((_error) => {
         result.innerHTML = 'Something went wrong!'
       })
       .then(() => {
